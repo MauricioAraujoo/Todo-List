@@ -1,4 +1,4 @@
-# Projeto Todo-List
+# Todo-List
 
 ## Introdução ao Projeto
 
