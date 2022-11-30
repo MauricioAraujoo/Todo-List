@@ -8,6 +8,10 @@ export const App = () => {
   //o useState vai receber um arrey de Itens
   const [list, setList] = useState<Item[]>([]);
 
+ /**
+   * Estou criando uma nova matriz, copiando a matriz antiga para ela e adicionando uma nova tarefa ao final da nova matriz
+   * @param {string} taskName - string - este é o nome da tarefa que o usuário irá inserir.
+  */
   const handleAddTask = (taskName: string) => {
     let newList = [...list];
     newList.push({
