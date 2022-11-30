@@ -16,12 +16,13 @@ export const Container = styled.div(({ done }: ContainerProps) => (
     input {
         width: 25px;
         height: 25px;
-        margin-right: 5px;
+        margin-right: 15px;
     }
 
     label {
         color: #ccc;
         text-decoration: ${done ? 'line-through' :'iunitial'};
+        font-size: 20px;
     }
 
 `
